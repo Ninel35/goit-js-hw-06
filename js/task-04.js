@@ -7,7 +7,6 @@ let counterValue = 0;
 function handlerD() {
     counterValue -= 1;
     counter.textContent = counterValue;
-    
 }
 
 decrement.addEventListener("click", handlerD);
@@ -15,7 +14,5 @@ decrement.addEventListener("click", handlerD);
 function handlerI() {
     counterValue += 1;
     counter.textContent = counterValue;
-   
 }
-
 increment.addEventListener("click", handlerI);
